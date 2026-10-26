@@ -1,3 +1,7 @@
+body {
+   
+}
+
 h1 {
 
 }
@@ -21,8 +25,8 @@ div#message1 {
     border-radius: 50px;
     padding: 5px;
     background-color: blue;
-    left: 1645px;
-    top: 780px;
+    left: 95%;
+    top: 90%;
 }
 
 section#hero1 {
@@ -52,6 +56,33 @@ section#hero3 {
 section#hero3 div#div31 {
 
 }
+
+section#hero3 div#plusic1 button {
+
+}
+
+section#hero3 div#plusic2 {
+    margin: 1px;
+}
+
+section#hero3 div#plusic2 button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    border-color: red;
+    border: 0;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#hero3 div#plusic2 button span {
+
+}
+
 
 section#hero3 div#div31 div#post1 {
 
@@ -83,4 +114,45 @@ section#hero3 div#div31 div#post7 {
 
 section#hero3 div#div31 div#post8 {
     
+}
+
+section#hero4 {
+
+}
+
+section#hero4 div#profile11 {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    border-radius: 50%;
+}
+
+section#hero4 div#profile12 {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    border-radius: 50%;
+}
+
+section#hero4 div#profile13 {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    border-radius: 50%;
+}
+
+section#hero5 {
+
+}
+
+section#hero6 {
+
+}
+
+section#hero7 {
+
+}
+
+footer {
+
 }
