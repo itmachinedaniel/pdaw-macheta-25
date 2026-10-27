@@ -45,15 +45,25 @@ h4 {
   margin: 0;
 }
 
-div#message1 {
+button#message1 {
     position: fixed;
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 60px;
     border-radius: 50px;
     padding: 5px;
-    background-color: blue;
-    left: 95%;
-    top: 90%;
+    background-color: rgb(255, 106, 0);
+    left: 94%;
+    top: 88%;
+    border: 0;
+    z-index: 1;
+}
+
+button#message1 p {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 header {
@@ -73,11 +83,15 @@ header div#hdr1 {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(12, 40, 41);
-    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 header div#hdr1 div p {
     color: white;
+    font-size: 14px;
 }
 
 header div#hdr2 {
@@ -91,7 +105,7 @@ header div#hdr2 {
 
 form#search1 input {
     border-radius: 4px;
-    border: 1px;
+    border: 2px solid rgb(0, 130, 102);
     font-family: "Figtree", sans-serif;
     padding: 8px;
     background-color: rgb(234, 255, 248);
@@ -130,10 +144,6 @@ header div#hdr3 {
     align-items: center;
     height: 40px;
     background-color: rgba(218, 254, 242, 0.6);
-}
-
-header div#hdr3 nav {
-
 }
 
 header div#hdr3 nav ul {
@@ -248,7 +258,7 @@ section#hero1 div#div-img img {
 }
 
 div#div14a {
-    width: 160px;
+    width: 210px;
     height: 40px;
     background-color: whitesmoke;
     border-radius: 5px;
@@ -259,8 +269,14 @@ div#div14a {
     right: 20px;
 }
 
+div#div14a1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 div#div14b {
-    width: 140px;
+    width: 160px;
     height: 40px;
     background-color: whitesmoke;
     border-radius: 5px;
@@ -271,8 +287,19 @@ div#div14b {
     right: 500px;
 }
 
-div#div14a p {
+div#logotip {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 130, 102);
+    border-radius: 50%;
+}
 
+div#logotip p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
 }
 
 section#hero2 {
@@ -397,10 +424,6 @@ section#hero3 div#div32 {
     grid-template-columns: 25% 25% 25% 25%;
 }
 
-section#hero3 div#plusic1 {
-
-}
-
 section#hero3 div#plusic1 button {
     height: 45px;
     width: 45px;
@@ -418,13 +441,13 @@ section#hero3 div#plusic1 button {
 
 section#hero3 div#plusic2 {
     position: absolute;
-    left: 75%;
+    left: 80%;
     top: 5%;
 }
 
 section#hero3 div#plusic2 button {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     padding: 0;
     margin: 0;
@@ -483,8 +506,8 @@ div.orangeshow {
     width: 90px;
     border-radius: 15px;
     height: 25px;
-    top: 5%;
-    left: 8%;
+    top: 7%;
+    left: 10%;
 }
 
 div.orangeshow p {
@@ -713,6 +736,7 @@ div#div62 h3 {
 div.subscribe1 {
     padding: 10px;
     border: 1px solid rgb(204, 204, 204);
+    background-color: rgb(234, 255, 248);
     margin: 30px;
     border-radius: 5px;
     display: flex;
@@ -802,6 +826,7 @@ button.button61 {
     height: 40px;
     width: 100px;
     border: 3px solid rgb(0, 130, 102);
+    background-color: rgb(234, 255, 248);
     border-radius: 5px;
 }
 
@@ -861,7 +886,10 @@ section#hero7 div#button7 button {
     width: 160px;
     height: 50px;
     border-radius: 5px;
-    font-family: "Figtree", sans-serif;
+}
+
+section#hero7 div#button7 button p {
+    font-size: 15px;
 }
 
 section#hero7 div#div71 h1,
