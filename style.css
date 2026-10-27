@@ -27,6 +27,11 @@ a {
     font-weight: 800;
 }
 
+i {
+    font-family: "Figtree", sans-serif;
+    color: gray;
+}
+
 p.bold {
     font-weight: 800;
 }
@@ -436,7 +441,7 @@ section#hero3 div#plusic2 button {
 section#hero3 div#div32 div.gridpos {
     padding: 15px;
     margin: 10px;
-    border: 2px solid rgb(0, 130, 102);
+    border: 1px solid rgb(0, 130, 102);
     border-radius: 8px;
     background-color: whitesmoke;
     position: relative;
@@ -497,66 +502,159 @@ h3.names {
     margin: 0;
 }
 
-section#hero3 div#div31 div#post1 {
-
-}
-
-section#hero3 div#div31 div#post2 {
-    
-}
-
-section#hero3 div#div31 div#post3 {
-    
-}
-
-section#hero3 div#div31 div#post4 {
-    
-}
-
-section#hero3 div#div31 div#post5 {
-    
-}
-
-section#hero3 div#div31 div#post6 {
-    
-}
-
-section#hero3 div#div31 div#post7 {
-    
-}
-
-section#hero3 div#div31 div#post8 {
-    
-}
-
 section#hero4 {
+    padding: 60px;
+    height: 500px;
+    background-color: whitesmoke;
+}
 
+section#hero4 div#div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+div#div4 div#div41 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div#div4 div#div41 p {
+    color: rgb(0, 130, 102);
+    margin-bottom: 20px;
+}
+
+div#div4 div#div41 h1 {
+    font-size: 48px;
+}
+
+section#hero4 div#div4 div#div42 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 60%;
+}
+
+div.gridpos1 {
+    border: 1px solid gray;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.gridpos1 div.separe1  {
+    padding: 10px;
+}
+
+div.gridpos1 div.separe1 p {
+    margin-bottom: 10px;
+}
+
+div#profile1 h3 {
+    margin: 0;
+    font-family: "Figtree", sans-serif;
+}
+
+section#hero4 div#profile1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 section#hero4 div#profile11 {
     width: 50px;
     height: 50px;
-    background-color: lightblue;
+    background-color: rgb(0, 130, 102);
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 section#hero4 div#profile12 {
     width: 50px;
     height: 50px;
-    background-color: lightblue;
+    background-color: orange;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section#hero4 div#profile13 {
     width: 50px;
     height: 50px;
-    background-color: lightblue;
+    background-color: black;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+div#div421a {
+    margin-right: 40px;
+}
+
+p.stars {
+    color: gold;
 }
 
 section#hero5 {
-
+    padding: 60px;
+    background-color: rgb(234, 255, 248);
+    height: 700px;
 }
+
+section#hero5 div#div51 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+div#div51 p {
+    color: rgb(0, 130, 102)
+}
+
+div#div51 h1 {
+    font-size: 42px;
+}
+
+section#hero5 div#div52 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+}
+
+div#div52 div#div522 {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+div#div52 div#div522 div#div5221 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+div#div5221a {
+    padding: 5px;
+}
+
+div#div5222 {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+img.img-a {
+    border-radius: 5px;
+}
+
+
 
 section#hero6 {
 
